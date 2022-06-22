@@ -1,0 +1,112 @@
+body {font-family: 'Montserrat';}
+
+h1 {font-family: 'Montserrat', sans-serif;  font-size: 3.5rem;  line-height: 1.5;  font-weight: 800;
+color: whitesmoke;}
+
+
+
+h3 {font-family: sans-serif; 
+}
+
+.pfeatures {color: #8f8f8f}
+
+.h2test {font-family: 'Montserrat', sans-serif;  font-size: 3rem;  line-height: 1.5;  font-weight: 800;
+    color: whitesmoke;}
+
+#title {background-color: #ff4c68;}
+
+.container-fluid {padding: 3% 15%}
+
+/* NavBar */
+.navbar { padding: 0 0 4.5rem;}
+
+.navbar-brand {font-family: 'Ubuntu', sans-serif;
+font-size: 3rem;
+font-weight: bold;
+padding-right: 400px;}
+
+.nav-item {padding-right: 0 18px;}
+.nav-link {font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-button {margin: 5% 3% 5% 0;}
+
+.dogpicture {
+    width: 17%;
+    transform: rotate(25deg);
+    margin-left: 30px;
+   position: absolute;
+   
+}
+
+/* FEATURES  */
+#features {padding: 7% 15%;
+background-color: whitesmoke;
+position: relative;
+z-index: 1;}
+
+.feature-box {text-align: center;
+padding: 5%;}
+
+.icon   {color: #ef8172;
+margin-bottom: 1rem;}
+
+.icon:hover {color: #ff4c68 ;}
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: whitesmoke;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+   margin: 20px;
+}
+
+#press {text-align: center;
+    background-color: #ef8172;
+padding-bottom: 3%; }
+
+.press-images {width: 15%;
+margin: 20px 20px 50px;}
+
+.carousel-item {padding: 7% 15% ;}
+
+.h1-pricing {color: #2C3333;
+font-family: 'Montserrat', sans-serif;  font-size: 3rem;  line-height: 1.5;  font-weight: 800; ;}
+
+.pricing-column {padding: 3% 2%;
+}
+
+
+/* MEDIA QUERY  */
+
+@media (max-width: 1028px) { 
+
+    .dogpicture {
+        transform: rotate(0);
+        position: static;
+    width: 34%;}
+
+    h1 {text-align: center;}
+}
+
+#cta {background-color: #ff4c68;
+font-family: 'Montserrat';
+color: whitesmoke;
+text-align: center;
+padding: 3% 17%;
+height: 500px
+;}
+
+.h3cta {font-family: 'Montserrat', sans-serif;  font-size: 3.5rem;  line-height: 1.5;  font-weight: 800;
+    color: whitesmoke; padding-top: 30px;}
+
+#footer {
+text-align: center;
+padding: 3% 15%;}
