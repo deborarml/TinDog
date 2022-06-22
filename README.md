@@ -1,2 +1,1 @@
-# TinDog
-My first Bootstrap project created in a week.
+TinDog Starting Files
